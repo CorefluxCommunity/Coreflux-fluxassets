@@ -1,4 +1,4 @@
-# Coreflux Flux Assets Support
+# Coreflux Flux Assets Support 🔌
 
 Welcome to the Flux Assets support repository! This is your one-stop hub for all support-related matters for Flux Assets, the modular building blocks for the Coreflux IoT platform.
 
@@ -12,7 +12,11 @@ For detailed information on each Flux Asset and guidance on how to use them, ple
 
 If you encounter any issues with Flux Assets, we encourage you to report them using our bug report template. Your reports help us improve and ensure Flux Assets work seamlessly for everyone.
 
-To report a bug, please go to the [Issues](https://github.com/CorefluxCommunity/Coreflux-fluxassets/issues/new/choose) section of this repository and select the 'Bug report' template.
+To report a bug, please go to:
+
+[🐛Report Issue](https://github.com/CorefluxCommunity/Coreflux-fluxassets/issues/new/choose) 
+
+
 
 ## Stay Connected
 

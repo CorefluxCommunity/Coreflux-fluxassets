@@ -1,0 +1,103 @@
+name: Bug report
+description: Create a report to help us improve Flux Assets
+title: "[BUG]"
+labels:
+  - bug
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Please note:** Before submitting a bug report, ensure that you have checked the documentation and that the issue has not already been reported by another user.
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description 🐞
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce-steps
+    attributes:
+      label: Steps to Reproduce 🔄
+      description: Steps to reproduce the behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior ✅
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment 🌐
+      description: Please select the environment where the bug occurred.
+      options:
+        - Ubuntu 20.04 LTS
+        - Ubuntu 18.04 LTS
+        - Debian 10 (Buster)
+        - Debian 9 (Stretch)
+        - Raspbian (latest)
+        - CentOS 8
+        - CentOS 7
+        - Fedora 33
+        - Fedora 32
+        - Red Hat Enterprise Linux 8
+        - Red Hat Enterprise Linux 7
+        - openSUSE Leap
+        - Arch Linux (latest)
+        - Windows 10
+        - Windows 8.1
+        - Windows 7
+        - Windows Server 2019
+        - Windows Server 2016
+        - Windows Server 2012 R2
+        - macOS 12 Monterey
+        - macOS 11 Big Sur
+        - macOS 10.15 Catalina
+        - macOS 10.14 Mojave
+        - Other (Please specify in 'Additional Info')
+    validations:
+      required: true
+  - type: dropdown
+    id: asset-type
+    attributes:
+      label: Asset Type 🧩
+      description: Please select the type of asset you need support with.
+      options:
+        - Docker Orchestrator
+        - NoSql
+        - Allen Bradley
+        - Modbus
+        - MS SQL
+        - OPC Server
+        - Siemens S7
+        - TwinCAT
+        - Omron Fins
+        - MariaDB
+        - MySQL
+        - Firebase
+        - Ethernet/IP
+        - Modbus Slave
+        - MQTT Bridge
+        - MQTTOpcBridge
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information ➕
+      description: Any additional information, context, or screenshots that you can provide.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms of Service
+      description: By submitting this issue, I acknowledge that I have read and agree to the [terms of service](LINK_TO_TERMS_OF_SERVICE) and [code of conduct](LINK_TO_CODE_OF_CONDUCT).
+      options:
+        - label: I agree to the terms and conditions
+          required: true
